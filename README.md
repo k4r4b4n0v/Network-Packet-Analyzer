@@ -1,2 +1,25 @@
-# Network-Packet-Analyzer
-Python tool for analyzing PCAP files with TLS/SSL detection, dark theme and drag&amp;drop support
+# Network Packet Analyzer
+
+Анализатор сетевого трафика для PCAP-файлов с поддержкой TLS/SSL, тёмной темы и drag & drop.
+
+## Возможности
+
+- Открытие файлов `.pcap` и `.pcapng`
+- Drag & drop — перетащите файл в окно
+- Отображение для каждого пакета:
+  - Время захвата
+  - Протокол (TCP/UDP)
+  - IP-адреса и порты источника/назначения
+  - TLS/SSL-рекорды (тип, версия, длина)
+  - Первые 50 байт полезной нагрузки (HEX + ASCII)
+- Тёмная тема
+- Русский и английский язык интерфейса
+- Сохранение результатов в TXT-файл
+
+## Требования
+
+- Python 3.7+
+- Установите зависимости:
+
+```bash
+pip install scapy PyQt5
