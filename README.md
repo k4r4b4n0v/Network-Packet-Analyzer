@@ -30,5 +30,5 @@ pip install scapy PyQt5
 
 # 2. Запустите программу
 python analyzer.py
-
+```
 <img width="1102" height="609" alt="Анализатор сетевого трафика" src="https://github.com/user-attachments/assets/2a549b93-7f34-42c4-ae58-6bdf6e09f710" />
